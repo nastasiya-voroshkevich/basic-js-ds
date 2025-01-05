@@ -23,10 +23,10 @@ class Stack {
   }
 
   pop() {
-    return this.arr.pop();
     if (this.arr.length === 0) {
       return undefined;
     }
+    return this.arr.pop();
   }
 
   peek() {
